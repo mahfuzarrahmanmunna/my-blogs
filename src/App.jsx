@@ -29,7 +29,7 @@ function App() {
         <div className="left-container  lg:w-[70%] text-center">
           <Blogs handleBookMark={handleBookMark} handleMarksAsRead={handleMarksAsRead} />
         </div>
-        <div className="px-4 lg:w-[30%] text-center bg-sky-100 rounded-2xl shadow">
+        <div className="mx-7 mt-7  px-4 lg:w-[30%] text-center bg-sky-100 rounded-2xl shadow">
           <h1>Reading Time : {readingTime}</h1>
           <h1> bookmarked count : {bookmarked.length}</h1>
           {
