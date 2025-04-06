@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container flex justify-between">
+      <div className="container lg:flex lg:justify-between">
         <div className="left-container  lg:w-[70%] text-center">
           <Blogs handleBookMark={handleBookMark} handleMarksAsRead={handleMarksAsRead} />
         </div>
